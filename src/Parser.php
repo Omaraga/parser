@@ -17,7 +17,7 @@ class Parser implements ParserInterface
     {
 
         $htmlPage = file_get_contents($url);
-
+        //url
         if ($htmlPage === false) {
             return ['Invalid URL'];
         }
@@ -36,7 +36,7 @@ class Parser implements ParserInterface
     public function test()
     {
         // feature 1
-        
+
     }
 
 }
